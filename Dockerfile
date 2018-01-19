@@ -16,3 +16,5 @@ EXPOSE 8080/tcp
 ENV LORAWAN_HOME=/storage
 WORKDIR /lorawan-server/_build/default/rel/lorawan-server
 CMD bin/lorawan-server
+
+
